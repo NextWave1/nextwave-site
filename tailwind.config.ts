@@ -10,7 +10,12 @@ const config: Config = {
 		'./src/shared/**/*.{js,ts,jsx,tsx,mdx,scss}',
 	],
 	theme: {
-		extend: {},
+		extend: {
+			fontFamily: {
+				inter: ['var(--font-inter)'],
+				unbounded: ['var(--font-unbounded)'],
+			},
+		},
 	},
 	plugins: [],
 }

@@ -1,9 +1,21 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, Unbounded } from 'next/font/google'
 
 import '../styles/global.scss'
 
-const inter = Inter({ subsets: ['cyrillic'] })
+const inter = Inter({
+	subsets: ['cyrillic'],
+	display: 'swap',
+	weight: '400',
+	variable: '--font-inter',
+})
+
+const unbounded = Unbounded({
+	subsets: ['cyrillic'],
+	display: 'swap',
+	weight: '900',
+	variable: '--font-unbounded',
+})
 
 export const metadata: Metadata = {
 	title: 'Create Next App',
@@ -16,8 +28,11 @@ export default function RootLayout({
 	children: React.ReactNode
 }) {
 	return (
-		<html lang='en'>
-			<body className={inter.className}>{children}</body>
+		<html
+			lang='ru'
+			className={`${inter.variable} ${unbounded.variable} font-sans`}
+		>
+			<body className='font-inter'>{children}</body>
 		</html>
 	)
 }
