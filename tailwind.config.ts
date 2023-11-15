@@ -63,6 +63,15 @@ const config: Config = {
 			},
 		},
 	},
-	plugins: [plugin(({ addComponents, addUtilities, theme }) => {})],
+	plugins: [
+		plugin(({ addComponents, addUtilities, theme }) => {
+			addUtilities({
+				'.blue-gradient': {
+					background:
+						'linear-gradient(to right, rgba(25, 59, 145, 0.1625), rgba(195, 204, 227, 0.0525));',
+				},
+			})
+		}),
+	],
 }
 export default config
