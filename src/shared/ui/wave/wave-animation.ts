@@ -5,7 +5,7 @@ export const waveAnimation: Variants = {
 	show: {
 		transition: {
 			delayChildren: 1,
-			staggerChildren: 0.05,
+			staggerChildren: 0.02,
 		},
 	},
 }

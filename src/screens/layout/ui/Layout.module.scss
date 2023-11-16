@@ -1,11 +1,11 @@
 .layout {
-	@apply w-full min-h-screen relative;
+	@apply w-full min-h-screen relative pt-56;
 
 	> svg {
 		@apply left-32 top-0 -z-1;
 	}
 
 	> header {
-		@apply mt-56 mb-64;
+		@apply mb-64;
 	}
 }
