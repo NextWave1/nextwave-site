@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 }
 
 const page: FC = () => {
-	return <main>привет</main>
+	return <main>привsadddddddddddddddddddddddddет</main>
 }
 
 export default page

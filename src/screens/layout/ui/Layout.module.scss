@@ -1,0 +1,7 @@
+.layout {
+	@apply w-full min-h-screen relative;
+
+	> svg {
+		@apply left-32 top-0 -z-1;
+	}
+}

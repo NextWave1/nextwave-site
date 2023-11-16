@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from 'next'
 import { Inter, Unbounded } from 'next/font/google'
 
+import { Layout } from '@/screens/layout'
+
 import '../styles/global.scss'
 
 const inter = Inter({
@@ -69,7 +71,9 @@ export default function RootLayout({
 			lang='ru'
 			className={`${inter.variable} ${unbounded.variable} font-sans`}
 		>
-			<body className='font-inter'>{children}</body>
+			<body className='font-inter'>
+				<Layout>{children}</Layout>
+			</body>
 		</html>
 	)
 }
