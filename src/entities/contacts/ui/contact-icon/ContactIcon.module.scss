@@ -1,0 +1,5 @@
+.icon {
+	@apply h-20 w-auto grayscale hover:grayscale-0 hover:scale-125;
+	transition: all 0.25s ease;
+	filter: brightness(100);
+}
