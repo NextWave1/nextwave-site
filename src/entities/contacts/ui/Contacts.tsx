@@ -9,7 +9,7 @@ export const Contacts: FC = () => {
 	return (
 		<div className={styles.contacts}>
 			{contactsIcons.map(icon => (
-				<ContactIcon icon={icon} key={icon.link} />
+				<ContactIcon icon={icon} key={icon.name} />
 			))}
 		</div>
 	)

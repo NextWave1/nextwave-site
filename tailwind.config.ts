@@ -70,7 +70,10 @@ const config: Config = {
 			addUtilities({
 				'.blue-gradient': {
 					background:
-						'linear-gradient(to right, rgba(25, 59, 145, 0.1625), rgba(195, 204, 227, 0.0525));',
+						'linear-gradient(100deg, rgba(25, 59, 145, 0.16) 16.8%, rgba(195, 204, 227, 0.05) 100%);',
+				},
+				'.bg-blur': {
+					backdropFilter: 'blur(5px);',
 				},
 				'.T1': {
 					fontWeight: '400',
