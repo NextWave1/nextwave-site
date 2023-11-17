@@ -71,6 +71,21 @@ const config: Config = {
 					background:
 						'linear-gradient(to right, rgba(25, 59, 145, 0.1625), rgba(195, 204, 227, 0.0525));',
 				},
+				'.T1': {
+					fontWeight: '400',
+					fontSize: '32px',
+					lineHeight: '40px',
+				},
+				'.T2': {
+					fontWeight: '400',
+					fontSize: '24px',
+					lineHeight: '32px',
+				},
+				'.T3': {
+					fontWeight: '400',
+					fontSize: '18px',
+					lineHeight: '24px',
+				},
 			})
 		}),
 	],
