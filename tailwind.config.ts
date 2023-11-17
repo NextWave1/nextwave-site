@@ -31,6 +31,7 @@ const config: Config = {
 			spacing: {
 				8: '8px',
 				16: '16px',
+				20: '20px',
 				24: '24px',
 				32: '32px',
 				40: '40px',
@@ -44,6 +45,7 @@ const config: Config = {
 				104: '104px',
 				112: '112px',
 				120: '120px',
+				1200: '1200px',
 			},
 			borderRadius: {
 				8: '8px',
@@ -63,6 +65,33 @@ const config: Config = {
 			},
 		},
 	},
-	plugins: [plugin(({ addComponents, addUtilities, theme }) => {})],
+	plugins: [
+		plugin(({ addComponents, addUtilities, theme }) => {
+			addUtilities({
+				'.blue-gradient': {
+					background:
+						'linear-gradient(100deg, rgba(25, 59, 145, 0.16) 16.8%, rgba(195, 204, 227, 0.05) 100%);',
+				},
+				'.bg-blur': {
+					backdropFilter: 'blur(5px);',
+				},
+				'.T1': {
+					fontWeight: '400',
+					fontSize: '32px',
+					lineHeight: '40px',
+				},
+				'.T2': {
+					fontWeight: '400',
+					fontSize: '24px',
+					lineHeight: '32px',
+				},
+				'.T3': {
+					fontWeight: '400',
+					fontSize: '18px',
+					lineHeight: '24px',
+				},
+			})
+		}),
+	],
 }
 export default config

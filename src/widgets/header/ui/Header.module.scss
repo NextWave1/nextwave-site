@@ -1,0 +1,7 @@
+.header {
+	@apply w-1200 mx-auto flex justify-between items-center;
+
+	.right {
+		@apply flex items-center gap-32;
+	}
+}
