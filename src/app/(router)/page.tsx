@@ -1,6 +1,8 @@
 import { Metadata } from 'next'
 import { FC } from 'react'
 
+import { MainPage } from '@/screens/main-page'
+
 import { createMetaTitle } from '@/shared/lib/utils/meta/create-meta-title'
 
 export const metadata: Metadata = {
@@ -8,7 +10,7 @@ export const metadata: Metadata = {
 }
 
 const page: FC = () => {
-	return <main>привsadddddddddddddddddddddddddет</main>
+	return <MainPage />
 }
 
 export default page
