@@ -45,6 +45,7 @@ const config: Config = {
 				104: '104px',
 				112: '112px',
 				120: '120px',
+				400: '400px',
 				1200: '1200px',
 			},
 			borderRadius: {
@@ -74,6 +75,30 @@ const config: Config = {
 				},
 				'.bg-blur': {
 					backdropFilter: 'blur(5px);',
+				},
+				'.H1': {
+					fontWeight: '900',
+					fontSize: '32px',
+					lineHeight: '38px',
+					fontFamily: theme('fontFamily.unbounded'),
+				},
+				'.H2': {
+					fontWeight: '900',
+					fontSize: '24px',
+					lineHeight: '28px',
+					fontFamily: theme('fontFamily.unbounded'),
+				},
+				'.H3': {
+					fontWeight: '900',
+					fontSize: '20px',
+					lineHeight: '24px',
+					fontFamily: theme('fontFamily.unbounded'),
+				},
+				'.H4': {
+					fontWeight: '900',
+					fontSize: '18px',
+					lineHeight: '22px',
+					fontFamily: theme('fontFamily.unbounded'),
 				},
 				'.T1': {
 					fontWeight: '400',
