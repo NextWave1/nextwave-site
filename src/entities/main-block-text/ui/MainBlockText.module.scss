@@ -1,0 +1,13 @@
+.div {
+	.title {
+		@apply H2 mb-24 pl-8;
+	}
+
+	.text {
+		@apply T2 border-b-2 pb-8 px-8 w-full block mb-8;
+	}
+
+	> h2 {
+		@apply w-400 pl-8;
+	}
+}

@@ -1,0 +1,7 @@
+.block {
+	@apply grid gap-32 grid-cols-3 grid-rows-2;
+
+	> a {
+		@apply self-start;
+	}
+}

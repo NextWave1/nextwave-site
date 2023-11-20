@@ -1,0 +1,11 @@
+.service {
+	@apply blue-gradient bg-blur px-24 py-32 rounded-24 w-200;
+
+	.name {
+		@apply H4 mb-20;
+	}
+
+	.text {
+		@apply T3;
+	}
+}
