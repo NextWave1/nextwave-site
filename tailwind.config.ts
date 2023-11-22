@@ -69,54 +69,63 @@ const config: Config = {
 	},
 	plugins: [
 		plugin(({ addComponents, addUtilities, theme }) => {
-			addUtilities({
-				'.blue-gradient': {
-					background:
-						'linear-gradient(100deg, rgba(25, 59, 145, 0.16) 16.8%, rgba(195, 204, 227, 0.05) 100%);',
+			addComponents({
+				'.button-gradient': {
+					border: '1px solid #fff',
+					display: 'flex',
+					justifyContent: 'center',
+					alignItems: 'center',
+					borderRadius: '50%',
 				},
-				'.bg-blur': {
-					backdropFilter: 'blur(5px);',
-				},
-				'.H1': {
-					fontWeight: '900',
-					fontSize: '32px',
-					lineHeight: '38px',
-					fontFamily: theme('fontFamily.unbounded'),
-				},
-				'.H2': {
-					fontWeight: '900',
-					fontSize: '24px',
-					lineHeight: '28px',
-					fontFamily: theme('fontFamily.unbounded'),
-				},
-				'.H3': {
-					fontWeight: '900',
-					fontSize: '20px',
-					lineHeight: '24px',
-					fontFamily: theme('fontFamily.unbounded'),
-				},
-				'.H4': {
-					fontWeight: '900',
-					fontSize: '18px',
-					lineHeight: '22px',
-					fontFamily: theme('fontFamily.unbounded'),
-				},
-				'.T1': {
-					fontWeight: '400',
-					fontSize: '32px',
-					lineHeight: '40px',
-				},
-				'.T2': {
-					fontWeight: '400',
-					fontSize: '24px',
-					lineHeight: '32px',
-				},
-				'.T3': {
-					fontWeight: '400',
-					fontSize: '18px',
-					lineHeight: '24px',
-				},
-			})
+			}),
+				addUtilities({
+					'.blue-gradient': {
+						background:
+							'linear-gradient(100deg, rgba(25, 59, 145, 0.16) 16.8%, rgba(195, 204, 227, 0.05) 100%);',
+					},
+					'.bg-blur': {
+						backdropFilter: 'blur(5px);',
+					},
+					'.H1': {
+						fontWeight: '900',
+						fontSize: '32px',
+						lineHeight: '38px',
+						fontFamily: theme('fontFamily.unbounded'),
+					},
+					'.H2': {
+						fontWeight: '900',
+						fontSize: '24px',
+						lineHeight: '28px',
+						fontFamily: theme('fontFamily.unbounded'),
+					},
+					'.H3': {
+						fontWeight: '900',
+						fontSize: '20px',
+						lineHeight: '24px',
+						fontFamily: theme('fontFamily.unbounded'),
+					},
+					'.H4': {
+						fontWeight: '900',
+						fontSize: '18px',
+						lineHeight: '22px',
+						fontFamily: theme('fontFamily.unbounded'),
+					},
+					'.T1': {
+						fontWeight: '400',
+						fontSize: '32px',
+						lineHeight: '40px',
+					},
+					'.T2': {
+						fontWeight: '400',
+						fontSize: '24px',
+						lineHeight: '32px',
+					},
+					'.T3': {
+						fontWeight: '400',
+						fontSize: '18px',
+						lineHeight: '24px',
+					},
+				})
 		}),
 	],
 }
