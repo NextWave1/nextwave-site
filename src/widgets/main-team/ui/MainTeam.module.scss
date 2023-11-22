@@ -1,0 +1,7 @@
+.section {
+	@apply pt-8 text-center;
+
+	> h2 {
+		@apply mb-48;
+	}
+}

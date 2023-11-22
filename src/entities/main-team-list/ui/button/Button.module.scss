@@ -1,0 +1,7 @@
+.button {
+	@apply button-gradient blue-gradient h-88 w-88;
+
+	.img {
+		@apply relative h-56 w-56;
+	}
+}

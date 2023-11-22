@@ -1,0 +1,11 @@
+.employee {
+	@apply flex flex-col gap-20 items-center;
+
+	> img {
+		@apply w-88 h-88 rounded-half;
+	}
+
+	> span {
+		@apply H3;
+	}
+}
