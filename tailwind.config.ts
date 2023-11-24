@@ -50,6 +50,7 @@ const config: Config = {
 				200: '200px',
 				320: '320px',
 				400: '400px',
+				480: '480px',
 				1200: '1200px',
 			},
 			borderRadius: {

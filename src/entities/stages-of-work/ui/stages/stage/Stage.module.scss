@@ -1,0 +1,11 @@
+.stage {
+	@apply flex gap-40 items-center;
+}
+
+.number {
+	@apply H2 text-primary w-20 text-center;
+}
+
+.text {
+	@apply T2;
+}

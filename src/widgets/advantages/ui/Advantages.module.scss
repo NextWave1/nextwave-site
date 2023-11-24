@@ -1,0 +1,11 @@
+.section {
+	@apply flex gap-24;
+
+	> div {
+		@apply p-32 blue-gradient bg-blur rounded-24 text-center w-480;
+
+		> h2 {
+			@apply mb-40;
+		}
+	}
+}

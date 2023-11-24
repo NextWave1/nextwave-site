@@ -1,5 +1,6 @@
 import { FC } from 'react'
 
+import { Advantages } from '@/widgets/advantages'
 import { MainBlock } from '@/widgets/main-block'
 import { MainProjects } from '@/widgets/main-projects'
 import { MainServices } from '@/widgets/main-services'
@@ -14,6 +15,7 @@ export const MainPage: FC = () => {
 			<MainServices />
 			<MainTeam />
 			<MainProjects />
+			<Advantages />
 		</main>
 	)
 }
