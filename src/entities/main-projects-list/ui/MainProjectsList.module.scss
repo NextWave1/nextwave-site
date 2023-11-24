@@ -1,0 +1,8 @@
+.slider {
+	width: calc((320px * 3) + (40px * 2));
+	@apply mb-32;
+}
+
+.slide {
+	@apply h-184 rounded-24 relative bg-siren;
+}
