@@ -1,0 +1,18 @@
+.section {
+	@apply text-center;
+
+	> h2 {
+		@apply mb-48;
+	}
+}
+.buttonWrapper {
+	@apply flex justify-center;
+
+	.button {
+		@apply button-gradient blue-gradient h-72 w-176 rounded-64;
+
+		.img {
+			@apply relative h-56 w-80;
+		}
+	}
+}

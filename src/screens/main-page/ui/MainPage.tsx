@@ -1,6 +1,7 @@
 import { FC } from 'react'
 
 import { MainBlock } from '@/widgets/main-block'
+import { MainProjects } from '@/widgets/main-projects'
 import { MainServices } from '@/widgets/main-services'
 import { MainTeam } from '@/widgets/main-team'
 
@@ -12,6 +13,7 @@ export const MainPage: FC = () => {
 			<MainBlock />
 			<MainServices />
 			<MainTeam />
+			<MainProjects />
 		</main>
 	)
 }
