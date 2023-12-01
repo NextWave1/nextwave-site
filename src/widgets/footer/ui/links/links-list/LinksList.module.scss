@@ -1,0 +1,11 @@
+.wrapper {
+	@apply p-8;
+
+	> h3 {
+		@apply H2 mb-24;
+	}
+
+	.list {
+		@apply flex flex-col gap-24;
+	}
+}
