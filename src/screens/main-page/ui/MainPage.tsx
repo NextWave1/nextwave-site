@@ -6,6 +6,8 @@ import { MainProjects } from '@/widgets/main-projects'
 import { MainServices } from '@/widgets/main-services'
 import { MainTeam } from '@/widgets/main-team'
 
+import { InstallmentPlan } from '@/entities/installment-plan'
+
 import styles from './MainPage.module.scss'
 
 export const MainPage: FC = () => {
@@ -16,6 +18,7 @@ export const MainPage: FC = () => {
 			<MainTeam />
 			<MainProjects />
 			<Advantages />
+			<InstallmentPlan />
 		</main>
 	)
 }
