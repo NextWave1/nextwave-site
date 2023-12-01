@@ -1,5 +1,6 @@
 import { FC, PropsWithChildren } from 'react'
 
+import { Footer } from '@/widgets/footer'
 import { Header } from '@/widgets/header'
 
 import Wave from '@/shared/ui/wave/Wave'
@@ -12,6 +13,7 @@ export const Layout: FC<PropsWithChildren> = ({ children }) => {
 			<Wave />
 			<Header />
 			{children}
+			<Footer />
 		</div>
 	)
 }

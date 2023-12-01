@@ -1,11 +1,12 @@
 .layout {
-	@apply w-full min-h-screen relative pt-56;
+	@apply w-full min-h-screen relative pt-56 flex flex-col justify-evenly;
 
 	> svg {
 		@apply left-32 top-0 -z-1;
 	}
 
-	> header {
-		@apply mb-64;
+	> main {
+		@apply py-64;
+		flex-grow: 1;
 	}
 }

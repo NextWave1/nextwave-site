@@ -1,0 +1,11 @@
+.section {
+	@apply blue-gradient bg-blur rounded-24 p-32 w-456;
+
+	> h2 {
+		@apply p-8 mb-40;
+	}
+}
+
+.logo {
+	@apply w-112 h-112 block mb-16;
+}
