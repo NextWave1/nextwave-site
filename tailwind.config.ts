@@ -137,6 +137,11 @@ const config: Config = {
 						fontSize: '24px',
 						lineHeight: '24px',
 					},
+					'.T5': {
+						fontWeight: '400',
+						fontSize: '20px',
+						lineHeight: '20px',
+					},
 				})
 		}),
 	],
