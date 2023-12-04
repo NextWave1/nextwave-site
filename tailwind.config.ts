@@ -30,6 +30,7 @@ const config: Config = {
 			},
 			spacing: {
 				8: '8px',
+				12: '12px',
 				16: '16px',
 				20: '20px',
 				24: '24px',
@@ -129,6 +130,11 @@ const config: Config = {
 					'.T3': {
 						fontWeight: '400',
 						fontSize: '18px',
+						lineHeight: '24px',
+					},
+					'.T4': {
+						fontWeight: '400',
+						fontSize: '24px',
 						lineHeight: '24px',
 					},
 				})

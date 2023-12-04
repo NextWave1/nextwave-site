@@ -1,0 +1,26 @@
+.label {
+	@apply T4 relative;
+
+	> span {
+		@apply block;
+
+		&:first-child {
+			@apply mb-12;
+		}
+	}
+
+	.input {
+		@apply w-full border rounded-8 p-12 T4 transition-colors;
+		height: 50px;
+
+		&.isError {
+			border-color: #ef4c1c;
+		}
+	}
+
+	.error {
+		@apply T3 absolute;
+		top: calc(100% + 8px);
+		color: #ef4c1c;
+	}
+}
