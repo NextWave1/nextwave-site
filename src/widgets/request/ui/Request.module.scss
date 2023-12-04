@@ -1,0 +1,7 @@
+.section {
+	@apply bg-blur blue-gradient rounded-24 p-24 w-480;
+
+	> h2 {
+		@apply p-8 mb-32;
+	}
+}

@@ -1,0 +1,11 @@
+.fields {
+	@apply flex flex-col gap-32 mb-48;
+}
+
+.buttons {
+	@apply flex justify-between items-center;
+
+	.button {
+		@apply T5 p-8;
+	}
+}

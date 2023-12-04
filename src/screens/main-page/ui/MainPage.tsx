@@ -5,6 +5,7 @@ import { MainBlock } from '@/widgets/main-block'
 import { MainProjects } from '@/widgets/main-projects'
 import { MainServices } from '@/widgets/main-services'
 import { MainTeam } from '@/widgets/main-team'
+import { Request } from '@/widgets/request'
 
 import { InstallmentPlan } from '@/entities/installment-plan'
 
@@ -19,6 +20,7 @@ export const MainPage: FC = () => {
 			<MainProjects />
 			<Advantages />
 			<InstallmentPlan />
+			<Request />
 		</main>
 	)
 }
