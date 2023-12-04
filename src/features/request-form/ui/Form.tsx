@@ -3,7 +3,7 @@
 import { FC } from 'react'
 import { SubmitHandler, useForm } from 'react-hook-form'
 
-import { validTel } from '@/shared/lib/utils/reges/valid-tel'
+import { validTel } from '@/shared/lib/utils/regex/valid-tel'
 import { IFormData } from '@/shared/model/types/form-types'
 import Field from '@/shared/ui/field/Field'
 import PhoneInput from '@/shared/ui/field/PhoneInput'
@@ -46,6 +46,13 @@ export const Form: FC = () => {
 					span='Телефон'
 					placeholder='+7 (___) ___-__-__'
 					error={errors.tel}
+				/>
+				<Field
+					{...register('message')}
+					span='Сообщение'
+					placeholder='Введите сообщение...'
+					textarea
+					error={errors.message}
 				/>
 			</div>
 			<div className={styles.buttons}>
